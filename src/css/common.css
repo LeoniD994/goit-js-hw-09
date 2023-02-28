@@ -16,3 +16,43 @@ img {
   display: block;
   max-width: 100%;
 }
+.list li {
+  margin-bottom: 40px;
+}
+.btn-s{
+  text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    background-color:cadetblue;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+    transition: color var(--animation-duration) var(--timing-function),
+      background-color var(--animation-duration) var(--timing-function);
+
+}
+.btn{
+  text-decoration: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-left: 30px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+    transition: color var(--animation-duration) var(--timing-function),
+      background-color var(--animation-duration) var(--timing-function);
+}
+.btn:hover,
+.btn:focus {
+  background-color:#fff;
+  color:black;
+}
+.btn-s:hover,
+.btn-s:focus {
+  background-color: #fff;
+  color: black;
+}
