@@ -19,6 +19,12 @@ img {
 .list li {
   margin-bottom: 20px;
 }
+.form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
 .btn-s{
   text-decoration: none;
     padding: 5px 10px;
@@ -84,9 +90,11 @@ img {
 
 .input__btn {
   text-decoration: none;
+  width: 300px;
     padding: 5px 10px;
     font-size: 14px;
-    margin-left: 10px;
+    margin-left: 2px;
+    margin-top: 10px;
     background-color:darkorange;
     color: #fff;
     border: none;
