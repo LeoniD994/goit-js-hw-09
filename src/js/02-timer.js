@@ -75,9 +75,8 @@ function startCoint() {
         countdown -= 1000;
         let timeObject = convertMs(countdown);
         padStart(timeObject);
-
         } else {
-            Notiflix.Notify.success('Time is up...',{width:'350px', borderRadius: '10px', position: 'center-center',clickToClose: true, useIcon: false,}); // повідомлення про завершення підрахунку
+            Notiflix.Notify.success('Time is up...',{width:'350px', borderRadius: '10px', position: 'center-center',clickToClose: true, useIcon: false,});
             clearInterval(timerId); 
             inputWindow.disabled = false;
 
