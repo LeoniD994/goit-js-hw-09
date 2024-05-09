@@ -1,0 +1,32 @@
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 408px;
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.feedback-form button {
+    min-width: 95px;
+    padding: 8px 16px;
+    font: inherit;
+    cursor: pointer;
+}
+
+input,
+textarea {
+    padding: 8px;
+    font: inherit;
+}
+
+textarea {
+    resize: none;
+}
