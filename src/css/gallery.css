@@ -44,7 +44,6 @@
 }
 
 
-.sl-overlay {
-    opacity: 0.8;
-    background: #2E2F42CC;
+.sl-overlay  {
+    background-color: rgba(46, 47, 66, 0.8)!important;
 }

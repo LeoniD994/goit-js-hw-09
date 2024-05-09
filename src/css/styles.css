@@ -7,3 +7,28 @@
 @import url('./reset.css');
 @import url('./form.css');
 @import url('./gallery.css');
+.list{
+  display: flex;
+  gap:20px;
+  padding: 20px 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.item_gallary {
+  font-size: 50px;
+  font-weight: normal;
+  padding: 10px 20px;
+  background-color:blue;
+  color:azure;
+}
+
+.link_form {
+  font-size: 50px;
+  font-weight: normal;
+  padding: 10px 20px;
+  background-color:blue;
+  color:azure;
+  
+}
