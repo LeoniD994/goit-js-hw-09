@@ -72,29 +72,19 @@ const images = [
 const galleryEl = document.querySelector('.gallery');
 
 const imagesListTemplate = ({preview, original, description}) => {
-    return `
+    return `<li>
     <a class="gallery__item" href="${original}">
     <img class="gallery__image"
     src="${preview}" 
     title="${description}" 
-    alt="${description}" />
-    </a>`;
+    alt="${description}"
+    />
+    </a>
+    </li>`;
 };
 
 const addImg = images.map(imagesListTemplate).join('');
 galleryEl.insertAdjacentHTML("afterbegin", addImg);
 
 
-
-galleryEl.addEventListener('click', galleryImgClick );
-
-function galleryImgClick (evt){
-    const imageSelected = evt.target.getAttribute("data-source");
-
-    evt.preventDefault();
-
-    if (!imageSelected){return;}
-
-};
-
-new SimpleLightbox(".gallery a", {captionDelay: 250, showCounter:false});
+const lightbox = new  SimpleLightbox(".gallery a", {captionDelay: 250, captionData: 'alt'});
