@@ -1,5 +1,18 @@
+.form__link {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 47px;
+    margin-top: 20px;
+}
 
+.form__title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 15px;
+}
 .feedback-form {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 8px;

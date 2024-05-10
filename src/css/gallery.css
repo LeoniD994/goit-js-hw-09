@@ -2,6 +2,18 @@
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --animation-duration: 250ms;
 }
+.section__link{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 47px;
+    margin-top: 20px;
+}
+.section__title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 15px;
+}
 
 .gallery {
     display: grid;
